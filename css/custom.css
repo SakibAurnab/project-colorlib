@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+img{
+	max-width: 100%;
+	display: block; 
+}
+
+body{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+header{
+	background-color: #FAB700;
+	padding: 30px;
+}
+.contaner{
+	width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.logo{
+	width: 20%;
+    float: left;
+}
+.logo img{}
+nav{}
+nav ul{
+	text-align: right;
+}
+nav ul li{
+	list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+	color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding-left: 40px;
+    display: block;
+}
+
+.banner-section{
+	background-color: #BD8B03;
+    height: 90vh;
+    position: relative;
+    color: white;
+}
+.banner-contant{
+	position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.banner-contant h4{
+	font-weight: 100;
+    text-transform: uppercase;
+}
+.banner-contant h1{
+	font-size: 3em;
+    text-transform: capitalize;
+    padding: 20px 0;
+}
+.banner-contant p{
+	max-width: 650px;
+}
+.banner-contant a{
+	font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    background-color: #FAB700;
+    padding: 10px 30px;
+    display: inline-block;
+    font-weight: 800;
+    margin-top: 20px;
+}
+
+.service-section{
+	padding: 100px 0;
+}
+.heading{
+	text-align: center;
+	margin-bottom: 100px;
+}
+.heading h1{
+	font-size: 3em;
+    text-transform: capitalize;
+}
+.heading p{}
+.service-box{
+	width: 33.33%;
+    float: left;
+    padding: 15px;
+}
+.service{
+	background-color: #F9F9FF;
+    padding: 15px;
+}
+.service img{
+	width: 100%;
+}
+.service h1{
+	text-transform: capitalize;
+    margin: 15px 0;
+}
+.service p{}
+
+.feature-section{
+	background-color: #F9F9FF;
+	padding: 100px 0;
+}
+.feature-box{
+	width: 33.33%;
+    float: left;
+    padding: 15px;
+}
+.feature{
+	background-color: white;
+    padding: 25px;
+}
+.feature h2{
+	text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.feature p{
+	color: gray;
+    font-size: 18px;
+}
+
+.counter-section{
+	background-color: #FAB700;
+    padding: 100px 0;
+}
+.counter-box{
+	width: 20%;
+    float: left;
+}
+.counter{
+	text-align: center;
+}
+.counter h1{
+	font-size: 3em;
+    font-weight: 800;
+}
+.counter p{}
+
+.gallery-section{
+	padding: 100px 0;
+}
+ul.gallery{}
+ul.gallery li{
+	list-style: none;
+    float: left;
+    display: inline-block;
+    padding: 18px;
+}
+ul.gallery li img{}
+
+.blog-section{
+	padding: 100px 0;
+    background-color: #F9F9FF;
+}
+.blog{
+	width: 25%;
+    float: left;
+    padding: 15px;
+}
+.blog img{
+	width: 100%;
+}
+.blog a{
+	background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.blog h2{
+	font-size: 20px;
+    text-transform: capitalize;
+    margin: 10px 0;
+}
+.blog p{}
+
+footer{
+	background-color: #04091E;
+    padding: 100px 0;
+}
+.about-us{
+	color: #544D4A;
+    width: 40%;
+    float: left;
+    padding: 15px 0;
+}
+.about-us h3{
+	color: white;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.about-us p{
+	color: #544D4A;
+    margin-bottom: 20px;
+}
+.about-us p a{
+	text-decoration: none;
+    color: #FAB700;
+    text-transform: capitalize;
+}
+
+.newslatter{
+	color: #544D4A;
+    width: 40%;
+    float: left;
+}
+.newslatter h3{
+	color: white;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.newslatter p{
+	color: #544D4A;
+    margin-bottom: 20px;
+}
+.newslatter form{}
+.newslatter form input{
+	padding: 15px;
+    border: 0;
+    float: left;
+}
+.newslatter form button{
+	background-color: #FAB700;
+    border: 0;
+    padding: 15px 20px;
+    color: white;
+    float: left;
+}
+
+.sociam-menu{
+	color: #544D4A;
+    width: 20%;
+    float: left;
+}
+.sociam-menu h3{
+	color: white;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.sociam-menu p{
+	color: #544D4A;
+    margin-bottom: 20px;
+}
+.sociam-menu ul{}
+.sociam-menu ul li{
+	list-style: none;
+    display: inline-block;
+    margin-right: 15px;
+}
+.sociam-menu ul li a{
+	color: gray;
+    display: block;
+}
+
+
